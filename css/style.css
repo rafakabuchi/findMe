@@ -1,0 +1,143 @@
+/* GERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 100wh;
+    height: 90vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 800% 800%;
+    -webkit-animation: Gradient 5s ease infinite;
+    -moz-animation: Gradient 5s ease infinite;
+    animation: Gradient 5s ease infinite;
+}
+
+a {
+    text-decoration: none;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .secao-sobre,
+    .sobre-conteudo_redes-socias {
+        width: 80%;
+        padding: 0;
+    }
+    .sobre-conteudo {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .secao-sobre,
+    .sobre-conteudo,
+    .sobre-conteudo_redes-sociais {
+        width: 100%;
+    }
+}
+
+
+/* FONTS */
+
+h1 {
+    color: rgb(88, 8, 28);
+    font-size: 35px;
+}
+
+h2 {
+    color: #b92c56;
+    font-size: 25px;
+}
+
+h3 {
+    color: rgb(88, 8, 28);
+    font-size: 25px;
+}
+
+a {
+    color: rgb(88, 8, 28);
+    font-size: 25px;
+}
+
+
+/* SEÇÃO SOBRE */
+
+.secao-sobre {
+    background-color: white;
+    width: 50%;
+    margin: 5% auto;
+}
+
+.sobre-conteudo__img {
+    margin-top: 10%;
+}
+
+.sobre-conteudo {
+    /* font-family: 'Lato', sans-serif; */
+    text-align: center;
+}
+
+.sobre-conteudo__redes-sociais {
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 10%;
+}
+
+.sobre-conteudo__redes-sociais img {
+    width: 77px;
+    height: 76px;
+    margin: 5% 5%;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    border-radius: 60%;
+}
+
+i {
+    font-size: 80pt;
+    margin: 10px;
+}
