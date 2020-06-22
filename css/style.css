@@ -21,6 +21,9 @@ a {
     text-decoration: none;
 }
 
+
+/* Background Gradient*/
+
 @-webkit-keyframes Gradient {
     0% {
         background-position: 0% 50%
@@ -55,50 +58,6 @@ a {
     100% {
         background-position: 0% 50%
     }
-}
-
-@media only screen and (max-width:800px) {
-    /* For tablets: */
-    .secao-sobre,
-    .sobre-conteudo_redes-socias {
-        width: 80%;
-        padding: 0;
-    }
-    .sobre-conteudo {
-        width: 80%;
-    }
-}
-
-@media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .secao-sobre,
-    .sobre-conteudo,
-    .sobre-conteudo_redes-sociais {
-        width: 100%;
-    }
-}
-
-
-/* FONTS */
-
-h1 {
-    color: rgb(88, 8, 28);
-    font-size: 35px;
-}
-
-h2 {
-    color: #b92c56;
-    font-size: 25px;
-}
-
-h3 {
-    color: rgb(88, 8, 28);
-    font-size: 25px;
-}
-
-a {
-    color: rgb(88, 8, 28);
-    font-size: 25px;
 }
 
 
@@ -140,4 +99,52 @@ img {
 i {
     font-size: 80pt;
     margin: 10px;
+}
+
+
+/* DIMENSÕES DE TELA */
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .secao-sobre,
+    .sobre-conteudo_redes-socias {
+        width: 80%;
+        padding: 0;
+    }
+    .sobre-conteudo {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .secao-sobre,
+    .sobre-conteudo,
+    .sobre-conteudo_redes-sociais {
+        width: 100%;
+    }
+}
+
+
+/* FONTS */
+
+h1 {
+    color: #4d4f70;
+    font-size: 35px;
+}
+
+h2 {
+    color: #e80c0c;
+    font-size: 25px;
+    /* text-shadow: 2px 2px #6d3a3e; */
+}
+
+h3 {
+    color: #4d4f70;
+    font-size: 25px;
+}
+
+a {
+    color: #4d4f70;
+    font-size: 25px;
 }
