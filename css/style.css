@@ -28,9 +28,11 @@ a {
     0% {
         background-position: 0% 50%
     }
+
     50% {
         background-position: 100% 50%
     }
+
     100% {
         background-position: 0% 50%
     }
@@ -40,9 +42,11 @@ a {
     0% {
         background-position: 0% 50%
     }
+
     50% {
         background-position: 100% 50%
     }
+
     100% {
         background-position: 0% 50%
     }
@@ -52,9 +56,11 @@ a {
     0% {
         background-position: 0% 50%
     }
+
     50% {
         background-position: 100% 50%
     }
+
     100% {
         background-position: 0% 50%
     }
@@ -93,7 +99,7 @@ a {
 img {
     width: 80%;
     height: 80%;
-    border-radius: 60%;
+    /* border-radius: 60%; */
 }
 
 i {
@@ -105,18 +111,21 @@ i {
 /* DIMENSÕES DE TELA */
 
 @media only screen and (max-width:800px) {
+
     /* For tablets: */
     .secao-sobre,
     .sobre-conteudo_redes-socias {
         width: 80%;
         padding: 0;
     }
+
     .sobre-conteudo {
         width: 80%;
     }
 }
 
 @media only screen and (max-width:500px) {
+
     /* For mobile phones: */
     .secao-sobre,
     .sobre-conteudo,
